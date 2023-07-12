@@ -1,0 +1,47 @@
+.review-item-container {
+  display: flex;
+  align-items: space-around;
+  padding: 30px;
+}
+
+.review-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.person-name {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+.description {
+  max-width: 60%;
+}
+.right-arrow-btn {
+  background-color: transparent;
+  border: 0px solid;
+}
+
+.left-arrow-btn {
+  background-color: transparent;
+  border: 0px solid;
+}
+
+.right-arrow {
+  height: 30px;
+  width: 30px;
+}
+
+.right-arrow:hover {
+  cursor: pointer;
+}
+.left-arrow {
+  height: 30px;
+  width: 30px;
+}
+.left-arrow:hover {
+  cursor: pointer;
+}
